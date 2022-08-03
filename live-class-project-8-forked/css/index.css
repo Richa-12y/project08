@@ -1,0 +1,135 @@
+*{
+     margin: 0;
+     outline: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+.main-div{
+   background-color: white;
+     width: 100vw;
+     height: 100vh;
+     background-image: url('../images/backcover.svg');
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 100%;
+
+}
+nav{
+     display: flex;
+     flex-direction: row;
+     width: 100vw;
+     /* background-color: aqua; */
+     align-items: center;
+     justify-content: space-between;
+     max-height: 20vh;
+}
+.nav-items{
+     display: flex;
+     flex-direction: row;
+     /* background-color: bisque; */
+     width:45%;
+     justify-content: space-between;
+
+}
+
+[alt="logo"]{
+     width: 100px;
+     height: 50px;
+     margin-left: 7%;
+}
+.signin-btn{
+     border: none;
+     outline: none;
+     padding: 0.2em 0.8em 0.2em 0.8em;
+     background: -webkit-linear-gradient(55deg, #caadf8 65%,#533576 35%);
+     border-radius: 30px;
+     margin-right: 7%;
+     color: white;
+     font-size: 12px;
+     background: rgb(233, 128, 178);
+background: -webkit-linear-gradient(right, rgb(233, 128, 178), rgb(81, 15, 172));
+background: -moz-linear-gradient(right, rgb(233, 128, 178), rgb(81, 15, 172));
+background: linear-gradient(to left, rgb(233, 128, 178),rgb(81, 15, 172));
+     border-radius: 30px;
+     
+     color: white;
+       
+}
+
+.intro-section{
+  display: flex;
+  flex-direction: row;
+  /* background-color: aquamarine; */
+  width: 100vw;
+  position: relative;
+}
+
+.imgs-div{
+     position: relative;
+     z-index: 1;
+     left: 15%;
+     /* background-color: blue; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+
+
+}
+.left-section{
+     /* background-color: blue; */
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     
+}
+[alt="intro-img"]{
+     width: 500px;
+     position: absolute;
+     /* background-color: #caadf8; */
+     left:80%;
+     /* background: -webkit-linear-gradient(0deg, #caadf8 35%, #caadf8 65%); */
+
+}
+
+.vector-img{
+     margin-top: 300px;}
+[alt="vector-img"]{
+     position: relative;
+}
+[alt="vector-dot"]{
+     position: relative;
+     top: -30%;
+     left: 8%;
+}
+h1{
+     width: 200px;
+     /* background-color: azure; */
+     line-height: 2;
+
+}
+h4{
+     width: 200px;
+     font-size: 10px;
+     /* background-color: azure; */
+     position: absolute;
+     color: gray;
+}
+
+.learn-more-btn{
+     border: none;
+     outline: none;
+     padding: 1em 2em 1em 2em;
+  /* Created with https://www.css-gradient.com */
+background: rgb(233, 128, 178);
+background: -webkit-linear-gradient(right, rgb(233, 128, 178), rgb(81, 15, 172));
+background: -moz-linear-gradient(right, rgb(233, 128, 178), rgb(81, 15, 172));
+background: linear-gradient(to left, rgb(233, 128, 178),rgb(81, 15, 172));
+     border-radius: 30px;
+     margin-right: 7%;
+     color: white;
+     font-size: 15px;    
+}
